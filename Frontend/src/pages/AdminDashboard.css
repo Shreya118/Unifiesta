@@ -1,0 +1,54 @@
+.admin-dashboard-container {
+  position: relative;
+  padding: 40px;
+  background-color: rgba(78, 115, 216, 0.952);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  color: white; 
+}
+
+.admin-dashboard-container h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: white; 
+  margin-bottom: 1rem;
+}
+
+.admin-dashboard-container h3 {
+  text-align: center;
+  color: white; 
+  margin-bottom: 1rem;
+}
+
+form input,
+form textarea {
+  border-radius: 4px;
+}
+
+.alert {
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+}
+
+.card .card-body h5 {
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0); 
+}
+
+.card .card-body p {
+  color: rgb(0, 0, 0); 
+}
+
+.card .btn {
+  margin-right: 10px;
+}
+
+.btn {
+  font-weight: bold;
+}

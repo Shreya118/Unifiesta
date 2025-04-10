@@ -1,0 +1,88 @@
+.login-container {
+  padding: 40px;
+  background-image: url('workshop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form {
+  width: 500px;
+  max-width: 100%;
+}
+
+.login-title {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 30px;
+  background-color: #dfdfdf;
+  padding: 10px 550px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-control {
+  height: 60px;
+  font-size: 1rem;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f9ff;
+  color: #003366;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 86, 179, 0.4);
+  transform: scale(1.02);
+}
+
+.btn-primary {
+  background-color: #004080;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 60px;         
+  font-size: 1.2rem;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0 auto;   
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  width: 100%;                 
+  max-width: 300px;             
+}
+
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+  .login-title {
+    font-size: 2rem;
+    padding: 10px 30px;
+  }
+  .login-form {
+    width: 100%;
+  }
+}
